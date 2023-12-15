@@ -5,13 +5,47 @@ body {
     color: #6c840c; 
 }
 
-h1, h2, p {
-    color: #6c840c;
-    text-align: center; 
+
+
+
+h2 {
+    text-align: left;
 }
 
-img src {
-    
+.foto-planetín {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin-right: 20px; 
+}
+
+.primer-chat{
+    text-align: center;
+    background-color: #f5ffe0; /* Fondo blanco para el cuadro de texto */
+    padding: 25px;
+    color:#25a687
+}
+
+img {
+    margin-left: 20px;
+}
+
+.foto-chat {
+    display: flex;
+}
+
+.foto-planetin-2 {
+    margin-right: 20px;
+}
+
+
+.segundo-chat{
+    text-align: center;
+    background-color: #f5ffe0; /* Fondo blanco para el cuadro de texto */
+    padding: 25px;
+    color:#25a687
 }
 
 
@@ -23,42 +57,41 @@ img src {
 }
 
 
-/* Estilos para los contenedores de los gráficos */
 .grafico-container {
 width: calc(33.33% - 20px); /* 33.33% para tres cuadrados, y 20px de margen entre ellos */
 margin: 10px; /* Espaciado entre los cuadrados */
 float: left; /* Alineación en línea */
 }
 
-/* Estilo adicional para hacer que los gráficos sean responsivos */
+
 .grafico-container iframe {
 width: 100%;
 height: 600px; /* Ajusta la altura según tus necesidades */
 border: 0; /* Elimina el borde del iframe */
 }
 
-/* Estilos para los contenedores de los gráficos */
+
 .grafico-container2 {
 width: calc(50% - 20px); /* 33.33% para tres cuadrados, y 20px de margen entre ellos */
 margin: 10px; /* Espaciado entre los cuadrados */
 float: left; /* Alineación en línea */
 }
 
-/* Estilo adicional para hacer que los gráficos sean responsivos */
+
 .grafico-container2 iframe {
 width: 100%;
 height: 600px; /* Ajusta la altura según tus necesidades */
 border: 0; /* Elimina el borde del iframe */
 }
 
-/* Estilos para los contenedores de los gráficos */
+
 .grafico-container3 {
 width: calc(50% - 20px); /* 33.33% para tres cuadrados, y 20px de margen entre ellos */
 margin: 10px; /* Espaciado entre los cuadrados */
 float: left; /* Alineación en línea */
 }
 
-/* Estilo adicional para hacer que los gráficos sean responsivos */
+
 .grafico-container3 iframe {
 width: 100%;
 height: 600px; /* Ajusta la altura según tus necesidades */
